@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    font-family: fantasy;
+    background-color: #5a8282;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.contenedor {
+    margin: 100px;
+    padding: 20px;
+    background-color: #000000;
+    color: aqua;
+    border-radius: 10px;
+}
+
+#inputTexto {
+    background-color: rgb(176, 242, 247);
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#btnAgregar {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #dc503a;
+    color: white;
+    border-radius: 50px;
+}
+
+#btnAgregar:hover {
+    background-color: #26db29;
+}
+
+#listaContenedor {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.item {
+    background-color: rgb(176, 242, 247);
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(160, 152, 152, 0.2);
+    word-break: break-all;
+}
